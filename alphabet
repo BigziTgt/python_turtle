@@ -1,0 +1,40 @@
+import turtle
+
+from turtle import *
+color('white')
+setup (width=1920, height=1000, startx=0, starty=0)
+turtle.speed(10)
+color('red')
+
+def letter_ya(): #буква 'Я'
+    right(90)
+    forward(200)
+    back(100)
+    right(90)
+    circle(-50,180)
+    right(90)
+    forward(100)
+    right(30)
+    forward(120)
+    
+def letter_A(): #буква 'A' 
+    left(100)
+    forward(200)
+    back(100)
+    left(80)
+    forward(50)
+    right(109)
+    forward(100)
+    back(200)
+    
+def letter_BE(): #буква 'Б'
+    left(90)
+    forward(200)
+    right(90)
+    fd(65)
+    bk(65)
+    lt(90)
+    bk(73)
+    right(90)
+    circle(-65,185)
+
