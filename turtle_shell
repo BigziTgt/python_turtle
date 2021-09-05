@@ -1,0 +1,221 @@
+from tkinter import *
+from tkinter import ttk
+
+import turtle
+from turtle import *
+# setup (width=1920, height=1000, startx=0, starty=0)
+# turtle.speed(0)
+# goto(-800, 400)
+
+
+window = Tk()
+window.title("Черепаший алфавит")
+# lbl = Label(window, text="Привет", font=("Arial Bold", 50))  
+# lbl.grid(column=0, row=3)
+window.geometry('500x250')
+
+def clicked():
+    reset()
+btn3 = Button(window, text="Сброс", command=clicked, bg="black", fg="red")
+btn3.grid(column=0, row=0)
+
+def clicked():
+    from alphabet import letter_A
+    letter_A()
+btn = Button(window, text="Буква 'А'", command=clicked, fg="red")
+btn.grid(column=1, row=0)
+
+def clicked():
+    from alphabet import letter_BE
+    letter_BE()
+btn2 = Button(window, text="Буква 'Б'", command=clicked, fg="red")
+btn2.grid(column=1, row=1)
+
+def clicked():
+    from alphabet import letter_ve
+    letter_ve()
+btn = Button(window, text="Буква 'В'", command=clicked, fg="red")
+btn.grid(column=1, row=2)
+
+def clicked():
+    from alphabet import letter_ge
+    letter_ge()
+btn = Button(window, text="Буква 'Г'", command=clicked, fg="red")
+btn.grid(column=1, row=3)
+
+def clicked():
+    from alphabet import letter_de
+    letter_de()
+btn = Button(window, text="Буква 'Д'", command=clicked, fg="red")
+btn.grid(column=1, row=4)
+
+def clicked():
+    from alphabet import letter_e
+    letter_e()
+btn = Button(window, text="Буква 'Е'", command=clicked, fg="red")
+btn.grid(column=1, row=5)
+
+def clicked():
+    from alphabet import letter_yo
+    letter_yo()
+btn = Button(window, text="Буква 'Ё'", command=clicked, fg="red")
+btn.grid(column=1, row=6)
+
+def clicked():
+    from alphabet import letter_zh
+    letter_zh()
+btn = Button(window, text="Буква 'Ж'", command=clicked, fg="red")
+btn.grid(column=2, row=0)
+
+def clicked():
+    from alphabet import letter_ze
+    letter_ze()
+btn = Button(window, text="Буква 'З'", command=clicked, fg="red")
+btn.grid(column=2, row=1)
+
+def clicked():
+    from alphabet import letter_i
+    letter_i()
+btn = Button(window, text="Буква 'И'", command=clicked, fg="red")
+btn.grid(column=2, row=2)
+
+def clicked():
+    from alphabet import letter_Y
+    letter_Y()
+btn = Button(window, text="Буква 'Й'", command=clicked, fg="red")
+btn.grid(column=2, row=3)
+
+def clicked():
+    from alphabet import letter_K
+    letter_K()
+btn = Button(window, text="Буква 'К'", command=clicked, fg="red")
+btn.grid(column=2, row=4)
+
+def clicked():
+    from alphabet import letter_L
+    letter_L()
+btn = Button(window, text="Буква 'Л'", command=clicked, fg="red")
+btn.grid(column=2, row=5)
+
+def clicked():
+    from alphabet import letter_M
+    letter_M()
+btn = Button(window, text="Буква 'М'", command=clicked, fg="red")
+btn.grid(column=2, row=6)
+
+def clicked():
+    from alphabet import letter_H
+    letter_H()
+btn = Button(window, text="Буква 'Н'", command=clicked, fg="red")
+btn.grid(column=3, row=0)
+
+def clicked():
+    from alphabet import letter_O
+    letter_O()
+btn = Button(window, text="Буква 'О'", command=clicked, fg="red")
+btn.grid(column=3, row=1)
+
+def clicked():
+    from alphabet import letter_P
+    letter_P()
+btn = Button(window, text="Буква 'П'", command=clicked, fg="red")
+btn.grid(column=3, row=2)
+
+def clicked():
+    from alphabet import letter_R
+    letter_R()
+btn = Button(window, text="Буква 'Р'", command=clicked, fg="red")
+btn.grid(column=3, row=2)
+
+def clicked():
+    from alphabet import letter_S
+    letter_S()
+btn = Button(window, text="Буква 'С'", command=clicked, fg="red")
+btn.grid(column=3, row=3)
+
+def clicked():
+    from alphabet import letter_T
+    letter_T()
+btn = Button(window, text="Буква 'Т'", command=clicked, fg="red")
+btn.grid(column=3, row=4)
+
+def clicked():
+    from alphabet import letter_U
+    letter_U()
+btn = Button(window, text="Буква 'У'", command=clicked, fg="red")
+btn.grid(column=3, row=5)
+
+def clicked():
+    from alphabet import letter_F
+    letter_F()
+btn = Button(window, text="Буква 'Ф'", command=clicked, fg="red")
+btn.grid(column=3, row=6)
+
+def clicked():
+    from alphabet import letter_kh
+    letter_kh()
+btn = Button(window, text="Буква 'Х'", command=clicked, fg="red")
+btn.grid(column=4, row=0)
+
+def clicked():
+    from alphabet import letter_c
+    letter_c()
+btn = Button(window, text="Буква 'Ц'", command=clicked, fg="red")
+btn.grid(column=4, row=1)
+
+def clicked():
+    from alphabet import letter_ch
+    letter_ch()
+btn = Button(window, text="Буква 'Ч'", command=clicked, fg="red")
+btn.grid(column=4, row=2)
+
+def clicked():
+    from alphabet import letter_R
+    letter_R()
+btn = Button(window, text="Буква 'Ш'", command=clicked, fg="red")
+btn.grid(column=4, row=3)
+
+def clicked():
+    from alphabet import letter_sch
+    letter_sch()
+btn = Button(window, text="Буква 'Щ'", command=clicked, fg="red")
+btn.grid(column=4, row=4)
+
+def clicked():
+    from alphabet import letter_hard
+    letter_hard()
+btn = Button(window, text="Буква 'Ъ'", command=clicked, fg="red")
+btn.grid(column=4, row=5)
+
+def clicked():
+    from alphabet import letter_YY
+    letter_YY()
+btn = Button(window, text="Буква 'Ы'", command=clicked, fg="red")
+btn.grid(column=4, row=6)
+
+def clicked():
+    from alphabet import letter_soft
+    letter_soft()
+btn = Button(window, text="Буква 'Ь'", command=clicked, fg="red")
+btn.grid(column=5, row=0)
+
+def clicked():
+    from alphabet import letter_IE
+    letter_IE()
+btn = Button(window, text="Буква 'Э'", command=clicked, fg="red")
+btn.grid(column=5, row=1)
+
+def clicked():
+    from alphabet import letter_yu
+    letter_yu()
+btn = Button(window, text="Буква 'Ю'", command=clicked, fg="red")
+btn.grid(column=5, row=2)
+
+def clicked():
+    from alphabet import letter_ya
+    letter_ya()
+btn = Button(window, text="Буква 'Я'", command=clicked, fg="red")
+btn.grid(column=5, row=3)
+
+window.mainloop()
+
